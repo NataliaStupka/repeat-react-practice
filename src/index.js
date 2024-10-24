@@ -12,7 +12,7 @@ import App from './App';
 
 
 
-// ??? чи потрібно: оборачиваем в строгий режим React.StrictMode
+// оборачиваем в строгий режим React.StrictMode
 ReactDOM.createRoot(document.getElementById('root'))
   .render(<React.StrictMode><App /></React.StrictMode>);
 
